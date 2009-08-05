@@ -125,6 +125,7 @@ status_t GstPlayer::setVideoSurface(const sp<ISurface>& surface)
 {
     GST_PLAYER_DEBUG("ISurface: %p\n", surface.get());
     mSurface = surface;
+    mGstPlayerPipeline->setVideoSurface(surface);
     return OK;
 }
 
