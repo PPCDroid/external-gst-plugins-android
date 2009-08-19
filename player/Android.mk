@@ -24,7 +24,7 @@ LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/..   \
     $(LOCAL_PATH)/../log   \
     $(LOCAL_TOP_PATH)/gstreamer       \
-    $(LOCAL_TOP_PATH)/gstreamer/android  \
+    $(LOCAL_TOP_PATH)/gstreamer/android/arch/$(TARGET_ARCH)   \
     $(LOCAL_TOP_PATH)/gstreamer/gst	\
     $(LOCAL_TOP_PATH)/gstreamer/gst/android	\
     $(LOCAL_TOP_PATH)/gstreamer/libs \
@@ -67,7 +67,7 @@ LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/..   \
     $(LOCAL_PATH)/../log   \
     $(LOCAL_TOP_PATH)/gstreamer       \
-    $(LOCAL_TOP_PATH)/gstreamer/android  \
+    $(LOCAL_TOP_PATH)/gstreamer/android/arch/$(TARGET_ARCH)  \
     $(LOCAL_TOP_PATH)/gstreamer/gst	\
     $(LOCAL_TOP_PATH)/gstreamer/gst/android	\
     $(LOCAL_TOP_PATH)/gstreamer/libs \

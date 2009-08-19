@@ -29,7 +29,7 @@ LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/../..   \
 	$(LOCAL_PATH)/../../log   \
 	external/gstreamer	   \
-	external/gstreamer/android	  \
+	external/gstreamer/android/arch/$(TARGET_ARCH)	  \
 	external/gstreamer/gst	\
 	external/gstreamer/gst/android	\
 	external/gstreamer/libs \
