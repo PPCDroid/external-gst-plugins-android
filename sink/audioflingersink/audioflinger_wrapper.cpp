@@ -326,7 +326,7 @@ uint32_t audioflinger_device_sampleRate (AudioFlingerDeviceHandle handle)
   if (handle == NULL || AUDIO_FLINGER_DEVICE(handle)->init == false)
     return 0;
   if (AUDIO_FLINGER_DEVICE_TRACK(handle))  {
-    return (int)AUDIO_FLINGER_DEVICE_TRACK(handle)->sampleRate();
+    return (int)AUDIO_FLINGER_DEVICE_TRACK(handle)->getSampleRate();
   }
   else {
     // do nothing here, MediaPlayerBase::AudioSink doesn't provide sampleRate()
