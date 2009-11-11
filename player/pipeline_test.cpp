@@ -161,7 +161,7 @@ static void test_setDataSource_url()
 }
 
 
-int main (int argc, char **argv[])
+int main (int argc, char *argv[])
 {
     test_setDataSource_fd();
     // test_setDataSource_url(); test_fd();
